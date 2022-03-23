@@ -54,3 +54,4 @@ let answer7 = 0 ===false; //false *2 different data types can't be evaluated
 let answer8 = 0 != false; //false 0 equates to false
 let answer9 = 0 !== false; //true
 console.log(answer1, answer2, answer3, answer4, answer4a, answer5, answer6, answer7, answer8, answer9)
+//do console.log() for each answer to have them in a vertical line
