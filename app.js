@@ -9,11 +9,11 @@ console.log("EXERCISE 1:\n==========\n");
 // YOUR CODE HERE
 let a1 = 20
 let b = 4
-let add = a1 + b
-let minus = a1 - b
-let multiply = a1 * b
-let dividing = a1 / b
-console.log(add)//24
+let add = a1 + b //24
+let minus = a1 - b //16
+let multiply = a1 * b //80
+let dividing = a1 / b //5
+console.log(add, minus, multiply, dividing)
 // Exercise 2
 console.log("EXERCISE 2:\n==========\n");
 
@@ -25,9 +25,9 @@ let isPresent = true;
 let firstName = "Jackie";
 let lastName = "Chan";
 
-let add1 = a + str //1111
+let add1 = a + str //1111 
 let add2 = a + str2 // 11eleven
-let add3 = a + isPresent //12
+let add3 = a + isPresent //12 *true converted to 1 int
 let add4 = a + firstName //11Jackie
 let add5 = a + lastName //11Chan
 console.log(add1, add2, add3, add4, add5)
@@ -43,12 +43,12 @@ let firstName2 = "Robin";
 let lastName2 = "Williams";
 
 let answer1 = d ==str3; //true
-let answer2 = d ===str3; //false
+let answer2 = d ===str3; //false *different operand types will not compute
 let answer3 = !isPresent2; //true
 let answer4 = ("eleven" == str4 && d >= str3); //false
 let answer5 = (!isPresent2 || isPresent2); //true
-let answer6 = 0 == false; // true
-let answer7 = 0 ===false; //false
+let answer6 = 0 == false; //true
+let answer7 = 0 ===false; //false *0 
 let answer8 = 0 != false; //false
-let answer9 = 0 != false; //false
+let answer9 = 0 !== false; //true
 console.log(answer1, answer2, answer3, answer4, answer5, answer6, answer7, answer8, answer9)
